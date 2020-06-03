@@ -133,4 +133,7 @@ void main ( void )
 {
     printf("enum-monitors\n");
     EnumDisplayMonitors(NULL, NULL, &enum_monitor, 0);
+
+    printf("Press Any Key to Continue\n");
+    getch();
 }
